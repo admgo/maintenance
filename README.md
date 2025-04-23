@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/admgo/admgo">
-    <img src="https://github.com/admgo/maintenance/blob/c546aa4a7421258a47232e4e96ad7faca01a1de2/pic/main.png" alt="Logo" width="300" height="300">
+    <img src="https://github.com/admgo/maintenance/blob/c546aa4a7421258a47232e4e96ad7faca01a1de2/pic/main.png" alt="Logo" width="910" height="540">
   </a>
 </div>
 
