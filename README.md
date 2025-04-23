@@ -13,7 +13,7 @@
 
 | 参数             | 描述                                                          |
 | ---------------- | ------------------------------------------------------------- |
-| -title           | 标签页标题，默认值：喔！                                      |
+| -title           | 标签页标题，默认值：_喔！_                                  |
 | -headline        | 一个醒目的主题，默认值：_系统正在维护..._                   |
 | -maintenancetime | 维护时间，默认值：_2025年1月1日 22:00 - 2025年1月2日 02:00_ |
 | -mail            | 用于联系的邮箱，默认值：_example@examplecom_                |
@@ -26,4 +26,4 @@
 
 使用参数:
 
-`docker run -title 'Team name' -headline 'Oops!' -mail 'mail@domain.com' -maintenancetime '2025.1.1 00:00 - 2025.1.2 00:00' -p 80:80 admgo/maintenance`
+`docker run -title 'Oops' -headline 'Application is maintenance' -mail 'it-support@domain.com' -maintenancetime '2025.1.1 00:00 - 2025.1.2 00:00' -p 80:80 admgo/maintenance`
