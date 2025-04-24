@@ -27,7 +27,7 @@
 
 快速启动
 
-`docker run -p 80:8080 admgo/maintenance`
+`docker run -p 80:80 admgo/maintenance`
 
 使用参数:
 
