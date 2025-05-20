@@ -27,8 +27,12 @@
 
 快速启动
 
+```shell
 `docker run -p 80:80 admgo/maintenance`
+```
 
 使用参数:
 
-`docker run -title 'Oops' -headline 'Application is maintenance' -mail 'it-support@domain.com' -maintenancetime '2025.1.1 00:00 - 2025.1.2 00:00' -p 80:80 admgo/maintenance`
+```shell
+docker run  -p  80:80 -d admgo/maintenance -title 'Oops' -headline 'Application is maintenance' -mail 'it-support@domain.com' -maintenancetime '2025.1.1 00:00 - 2025.1.2 00:00'
+```
